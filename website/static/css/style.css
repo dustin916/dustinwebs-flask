@@ -1,0 +1,125 @@
+html{
+    background-color: black;
+} 
+
+body{
+    background-color: black;
+    color: white;
+    background-image: url("../images/background/DustinWebs_Background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+/* navbar */
+
+#navbarLinks {
+    transform: translateY(100%);
+}
+
+#navbarLinks a{
+    background-color: rgb(248, 249, 250);
+    border-radius: 10px;
+}
+
+#navbarLinks a:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 90%;
+}
+
+#navbarName {
+    max-width: auto;
+}
+
+
+
+  
+
+/* Home */ 
+
+#profPic {
+    height: auto;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+#body{
+    padding-right: 10%;
+}
+
+/* services */ 
+#services{
+    color: black;
+}
+
+li a{
+    color: blueviolet;
+}
+
+/* portfolio */
+
+#dustinWebsPortfolio{
+    color: black;
+}
+
+#riverChromaDesigns{
+    color: black;
+}
+
+/* Contact */
+#contactBlock{
+    color: black;
+}
+
+/* thank you */
+
+#thankYou {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+#contactLink{
+    color: blueviolet;
+}
+
+.footerLogo {
+    width: auto;
+}
+
+/* DustinWebs Business Footer */
+
+#dustinwebsFooter{
+    text-align: center;
+}
+
+#dustinwebsContactLink{
+    color: blueviolet;
+}
+
+#dustinwebsLogoLink {
+    text-decoration: none;
+}
+
+.dustinwebsFooterLogo{
+    width: 10%;
+}
+
+

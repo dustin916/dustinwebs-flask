@@ -1,0 +1,42 @@
+{% extends 'base.html' %}{% block title %}{{title}}{% endblock %}
+ 
+{% block content %} 
+<div class="shadow p-3 mb-5 bg-body rounded" id="services">
+       
+    <h1 class="container">Welcome</h1>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+      
+                    <img src="{{ url_for('static', filename='images/profile_pic/dustin_at_piano.jpeg')}}" class="img-fluid rounded"
+                    id="profPic">
+
+            </div> 
+
+            <div class="col-sm-8">
+                <div class="text" id="text">
+                    <p>Welcome to my business site. My name is Dustin and I am the creator of DustinWebs. </p>
+                    <br>
+                    <p>A little bit about me:</p>
+                    <ul style="list-style-type:none">
+                        <li>Again, my name is Dustin. I am married with one child so far, and another on the way. My main job is as a Pastor of a church. 
+                            I got in to web design in order to be able to have a side job where I can be with my family more and where I can be available for my church people.I do enjoy working on websites.</li>
+                    </ul>
+                    <br>
+                    <p>A little bit about my practice:</p>
+                    <ul style="list-style-type:none">
+                        <li>So, I build websites, but I do not do it from premade templates. I build my website with code.
+                            Now, personally, I am not the greatest when it comes to artwork and design. But we do still offer those services. See the
+                            <a href="{{ url_for('views.services') }}">Services</a> tab for more information on what we offer.
+                        In order to provide artwork, I have partnered with RiverChromaDesigns. She can create logos, artwork and other great design options that will make your website standout. (??? maybe get more info on what Hannah offers ???)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+ </div>
+
+
+{% endblock %}

@@ -1,0 +1,84 @@
+{% extends 'base.html' %}{% block title %}{{title}}{% endblock %}
+
+{% block content %} 
+<div class="shadow p-3 mb-5 bg-body rounded" id="services">
+<h1>Services Offered</h1>
+<br>
+<p>Services that I offer are listed below.
+    Please <a href="{{ url_for('views.contact') }}" id="contactLink">contact me</a> if you would like to discuss prices or have a website built.
+</p>
+
+<!--(maybe an hr tag that is sort of opaque?)-->
+<hr>
+<h2>DustinWebs</h2>
+
+ 
+<ul>
+    <li>Splash Page:</li>
+        <ul> 
+            <li>Single Page</li>
+            <li>Fully styled.</li>
+            <li>No functionality.</li>
+        </ul>
+        <br>
+    <li>Tier 1: Basic Website</li>
+        <ul>
+            <li>Includes:</li> 
+                <ul>
+                    <li>Four pages.</li> 
+                    <li>Fully styled.</li>
+                    <li>Fully functional.</li>
+                </ul>
+            <li>NOTE: Does not include a Database or Login System. These can be purchased separately if you wish to have them with Tier 1.</li>
+        </ul>
+        <br>
+    <li>Tier 2: Advanced Website</li>
+        <ul>
+            <li>Includes:</li> 
+                <ul>
+                    <li>Everything in Tier 1.</li>
+                    <li>Admin section.</li>
+                    <li>Database.</li>
+                    <li>Login.</li>
+                </ul>
+        </ul>
+        <br>
+    <li>Additional pages may be purchased.</li>
+    <br>
+    <li>Logo & Design:</li>
+        <ul>
+            <li>If you have a logo or design, I can use it.</li>    
+            
+            <li>I have also partnered with RiverChromaDesigns to create logos and design the website. See below for more services she offers. To see samples of her work check out the <a href="{{ url_for('views.portfolio') }}">Portfolio</a> section.</li>
+        </ul>
+        <br>
+    <li>Hosting & Maintainence:</li>
+        <ul>
+            <li>Available for a monthly or yearly fee.</li>
+        </ul>
+        <br>
+    <li>Payment:</li>
+        <ul>
+            <li>I require half the total amount before I begin the project and the rest once published.</li>
+        </ul>
+</ul>
+
+
+<hr>
+<h2>RiverChromaDesigns</h2>
+
+
+    <ul>
+        <li>Creating:</li> 
+            <ul>
+                <li>Logos</li>
+                <li>Banners</li>
+                <li>Backgrounds</li>
+            </ul>
+            <br>
+        <li>Photo Editing</li>
+    </ul>
+
+</div>
+
+{% endblock %}
