@@ -1,5 +1,10 @@
 # DustinWebs
- Business
-A small business website built with Flask, Python, HTML and CSS
 
-Never got published
+A Flask-based website project for a web development business concept.
+
+## Features
+- Navigation through pages
+- Pricing on products
+
+## Status
+- Project completed; website was never deployed. 
