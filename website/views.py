@@ -8,7 +8,7 @@ import os
 
 
 dustin_email = "dustins.webs@gmail.com"
-dustin_pw = "lskc oaco ebrg aepe"
+dustin_pw = "xxxx xxxx xxxx xxxx"
 
 
 class ContactForm(FlaskForm):
