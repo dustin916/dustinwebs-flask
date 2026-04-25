@@ -7,7 +7,7 @@ DustinWebs was designed as a professional business landing page for my freelance
 - Forms & Validation: Flask-WTF and WTForms (Implementing server-side validation and CSRF protection).
 - Frontend: HTML5, CSS3, Jinja2 Templates
 - Styling: Bootstrap 5.3.0 for layout, supplemented by custom CSS.
-Automation: smtplib for two-way communication (Auto-responding to potential clients while alerting me of new leads).
+- Automation: smtplib for two-way communication (Auto-responding to potential clients while alerting me of new leads).
 
 ## Key Features
 - Validated Lead Generation: Built a sophisticated contact system using Flask-WTF. This ensured that all potential client inquiries were validated for correct email formatting and required data before processing.
