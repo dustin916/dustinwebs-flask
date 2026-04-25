@@ -7,4 +7,12 @@ A Flask-based website project for a web development business concept.
 - Pricing on products
 
 ## Status
-- Project completed; website was never deployed. 
+- Project mostly completed - few pieces of information missing, but functionality is done; website was never deployed.
+
+## Demo Video
+
+
+
+https://github.com/user-attachments/assets/e4f44bd1-e9ea-4699-be28-0b3f25204009
+
+
